@@ -44,7 +44,72 @@
     }
 
     main-page-title {
-      z-index: 2;
+      z-index: 1;
+    }
+  }
+
+  .stand-for {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: row;
+    border: 1px solid red;
+    margin: 5%;
+
+    .logo-top-main {
+      display: flex;
+      justify-content: space-around;
+      padding: 10%;
+      border: 1px solid blue;
+
+      h5 {
+        color: #3c4858;
+        font-size: 18px;
+      }
+
+      p {
+        color: #999999;
+        font-size: 14px;
+      }
+
+      .stand-img-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px red solid;
+
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    .about-wrapper {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      border: green 1px solid;
+
+      .about-words {
+        display: flex;
+        border: 1px solid blue;
+      
+
+      h3 {
+        color: #3c4858;
+      }
+
+      p {
+        font-size: 18px;
+      }   
+    }
+
+    .about-hestia-image {
+      display: flex;
+      border: 1px solid orange;
+      margin: 500%;
     }
   }
 }

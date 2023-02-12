@@ -8,8 +8,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
 }
-html a,
-body a {
+html p,
+body p {
   text-decoration: none;
-  color: #555555;
+  color: #999999;
 }/*# sourceMappingURL=all-main-bodys.css.map */
