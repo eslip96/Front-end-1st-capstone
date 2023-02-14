@@ -15,6 +15,7 @@
 }
 .main-page .nav-bar a {
   text-decoration: none;
+  color: #555555;
 }
 .main-page .nav-bar .left-nav {
   display: flex;
@@ -44,10 +45,20 @@
   border: none;
   background-color: #e91e63;
   color: #ffffff;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 5px;
-  border-radius: 35%;
+  border-radius: 25px;
   text-align: center;
+  border: 1px solid blue;
+}
+.main-page .nav-bar .right-nav .nav-links:last-child:hover {
+  box-shadow: -32px 75px 77px -9px rgb(20, 19, 20);
+}
+.main-page .nav-bar .right-nav .nav-links:last-child a {
+  color: white;
 }
 .main-page .hero-container {
   display: flex;
@@ -55,10 +66,9 @@
   width: 100%;
   height: 500px;
   border: 1px solid green;
-  background-image: url("/images/clouds.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: darken;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("/images/clouds.jpg");
 }
 .main-page .hero-container .main-page-title {
   display: flex;
@@ -139,7 +149,7 @@
   flex-direction: row;
   width: 100%;
   height: 100%;
-  background-image: url("/images/city-skyline-main-page.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("/images/city-sky-scrapper.jpeg");
 }
 .main-page .stand-for .about-wrapper .about-words {
   display: flex;
@@ -217,17 +227,25 @@
 }
 .main-page .stand-for .pre-footer-bottom-wrapper {
   display: flex;
-  border: 1px solid purple;
   padding: 10%;
   color: #ffffff;
-  background-image: url(/images/city-skyline-main-page.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("/images/city-sky-scrapper.jpeg");
+}
+.main-page .stand-for .pre-footer-bottom-wrapper a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.main-page .stand-for .pre-footer-bottom-wrapper p {
+  color: #ffffff;
 }
 .main-page .stand-for .pre-footer-bottom-wrapper .get-in-touch-header {
   display: flex;
 }
+.main-page .stand-for .pre-footer-bottom-wrapper .get-in-touch-header .in-touch1 {
+  text-decoration: none;
+}
 .main-page .footer-wrapper {
   display: flex;
-  border: 1px solid red;
   background-color: #323437;
   color: #999999;
   text-decoration: none;
@@ -254,6 +272,5 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  color: 1px solid yellow;
   font-size: 14px;
 }/*# sourceMappingURL=home-page.css.map */
