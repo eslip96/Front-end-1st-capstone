@@ -9,8 +9,11 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 100%;
   padding-top: 10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
 }
 .main-page .nav-bar a {
   text-decoration: none;
@@ -108,7 +111,6 @@
   width: 95%;
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
-  z-index: 1;
   margin-top: -50px;
   background-color: white;
 }
