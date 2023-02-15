@@ -196,6 +196,8 @@
       // border: green 1px solid;
       background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
         url("/images/city-sky-scrapper.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
 
       .about-words {
         display: flex;
@@ -296,6 +298,8 @@
       color: #ffffff;
       background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
         url("/images/city-sky-scrapper.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
 
       a {
         text-decoration: none;

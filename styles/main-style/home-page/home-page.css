@@ -153,6 +153,8 @@
   width: 100%;
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("/images/city-sky-scrapper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-page .stand-for .about-wrapper .about-words {
   display: flex;
@@ -231,6 +233,8 @@
   padding: 10%;
   color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("/images/city-sky-scrapper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-page .stand-for .pre-footer-bottom-wrapper a {
   text-decoration: none;
