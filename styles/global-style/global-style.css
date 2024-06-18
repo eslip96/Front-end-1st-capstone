@@ -178,6 +178,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 20%;
 }
 .main-page .stand-for .about-wrapper .about-words h3 {
   display: flex;

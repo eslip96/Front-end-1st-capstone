@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 100%;
+  background-color: rgba(60, 72, 88, 0.5);
 
   .nav-bar {
     display: flex;
@@ -18,23 +19,18 @@
 
     & a {
       text-decoration: none;
-      color: #555555;
+      color: #3c4858;
     }
 
     .left-nav {
       display: flex;
       justify-content: start;
       align-items: flex-start;
-      // border: 1px solid blue;
       padding: 5px;
       text-decoration: none;
       margin-right: 15%;
       color: black;
       font-size: 18px;
-
-      // .left-nav:hover {
-
-      // }
     }
     .right-nav {
       display: flex;
@@ -42,7 +38,7 @@
       justify-content: space-between;
       align-items: center;
       text-decoration: none;
-      // border: green 1px solid;
+
       gap: 40px;
       margin-left: 15%;
       font-size: 12px;
@@ -60,7 +56,6 @@
         margin: 5px;
         border-radius: 25px;
         text-align: center;
-        // border: 1px solid blue;
 
         &:hover {
           box-shadow: 20px 74px 128px -21px rgba(143, 71, 143, 1);
@@ -83,7 +78,6 @@
     background-color: #e91e63;
 
     display: flex;
-    // border: 1px solid red;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -92,7 +86,6 @@
 
     h1 {
       display: flex;
-      // border: 1px solid red;
       flex-direction: column;
       justify-content: space-evenly;
       font-size: 40px;
@@ -113,22 +106,24 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1),
       0 12px 40px 0 rgba(0, 0, 0, 0.3);
     margin-top: -120px;
-    padding-bottom: 500px;
     background-color: white;
     text-decoration: none;
+
+    .thousand-body-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 10%;
+    }
   }
 
   .related-posts {
     display: flex;
     flex-direction: row;
+    margin: 4%;
+    gap: 5%;
 
-    .blog-main-title {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      color: #3c4858;
-      // border: 1px solid blue;
-      font-size: 37px;
+    div {
+      width: 30%;
     }
 
     .main-blog-links {
@@ -146,14 +141,19 @@
     }
 
     p {
+      display: flex;
       font-size: 14px;
+      line-height: 1.5;
+      text-align: center;
     }
 
     .pre-foot-links {
       display: flex;
-      // border: 1px solid blue;
+      border: 1px solid white;
+      background-color: #ffffff;
       flex-direction: column;
       justify-content: center;
+      border-radius: 5px;
 
       a :first-child {
         color: #89229b;
@@ -189,7 +189,6 @@
 
     .left-footer {
       display: flex;
-      // border: 1px solid green;
       justify-content: flex-start;
       align-items: center;
       padding: 10px;
@@ -201,7 +200,6 @@
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      // color: 1px solid yellow;
       font-size: 14px;
     }
   }
